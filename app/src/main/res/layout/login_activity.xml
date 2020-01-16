@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-18dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvlogin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="User Login"
+            android:textColor="#FF075AAF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:background="#f0fff0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/edtmail"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="#e3f2fd"
+            android:hint="Eamil ID." />
+
+
+
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:hint="Password"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="#e3f2fd"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="#bbdefb"
+            android:clickable="true"
+            android:text="Login"
+            android:textColor="#FF075AAF"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

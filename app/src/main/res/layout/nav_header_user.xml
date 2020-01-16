@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="305dp">
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_profile_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_user"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_marginLeft="10dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/user_profile_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:paddingTop="0dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:text="user_name"
+                        android:layout_marginTop="34dp"
+                        android:layout_marginLeft="1dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                    <TextView
+                        android:id="@+id/edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:paddingTop="0dp"
+                        android:textSize="15sp"
+                        android:text="View or edit your profile"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="1dp"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Following"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:paddingTop="25dp"
+                        android:layout_marginLeft="8dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000000"
+
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:layout_marginLeft="43dp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fans"
+                        android:textColor="#000000"
+
+                        android:textSize="18sp"
+                        android:paddingTop="25dp"
+                        android:layout_marginLeft="36dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000000"
+
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:layout_marginLeft="49dp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Level"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+
+                        android:paddingTop="25dp"
+                        android:layout_marginLeft="30dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+
+                        android:paddingTop="10dp"
+                        android:layout_marginLeft="50dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</LinearLayout>

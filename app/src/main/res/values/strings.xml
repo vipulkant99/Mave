@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mave</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_application_id">3036348853123931</string>
+    <string name="fb_login_protocol_scheme">fb3036348853123931</string>
+</resources>

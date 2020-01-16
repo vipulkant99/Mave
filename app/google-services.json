@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521541291099",
+    "firebase_url": "https://maveofficial-53bc2.firebaseio.com",
+    "project_id": "maveofficial-53bc2",
+    "storage_bucket": "maveofficial-53bc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521541291099:android:b838535ca4c9d3c38d837e",
+        "android_client_info": {
+          "package_name": "com.example.mave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521541291099-e5gj28nmtupdgcv76tprsiu2phcehuu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mave",
+            "certificate_hash": "a950be9c52cbe40937f1ed3892cfbaf22fdae97a"
+          }
+        },
+        {
+          "client_id": "521541291099-rg370j5iheoq0f5hf89s0rc02fsuot3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqL7AJnGLoWyWlav4kjcEPXmgqzV_1680"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521541291099-rg370j5iheoq0f5hf89s0rc02fsuot3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
